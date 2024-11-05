@@ -39,3 +39,14 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+ .one {
+  color: blue;
+  font-weight: bold;
+  font-size: 50px;
+ }
+
+ .two{
+  color: orangered;
+  font-weight: bold;
+  font-size: 50px;
+ }
