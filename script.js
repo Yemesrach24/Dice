@@ -26,22 +26,22 @@ document.querySelector("img.img1").setAttribute("src", "./images/dice1.png");
    random2 =  Math.floor(Math.random()*6 ) ;
 
   if (random2===0){
-document.querySelector("img.img2").src= "./images/dice1.png";
+document.querySelector("img.img2").setAttribute("src", "./images/dice1.png");
   }
   else if (random2===1){
-   document.querySelector("img.img2").src= "./images/dice2.png";
+   document.querySelector("img.img2").setAttribute("src", "./images/dice2.png");
   }
   else if (random2===2){
-   document.querySelector("img.img2").src= "./images/dice3.png";
+   document.querySelector("img.img2").setAttribute("src", "./images/dice3.png");
   }
   else if (random2===3){
-    document.querySelector("img.img2").src= "./images/dice4.png";
+    document.querySelector("img.img2").setAttribute("src", "./images/dice4.png");
   }
   else if (random2===4){
-    document.querySelector("img.img2").src= "./images/dice5.png";
+    document.querySelector("img.img2").setAttribute("src", "./images/dice5.png");
   }
   else  {
-    document.querySelector("img.img2").src= "./images/dice6.png";
+    document.querySelector("img.img2").setAttribute("src", "./images/dice6.png");
   }
   
 
