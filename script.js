@@ -45,12 +45,12 @@ document.querySelector("img.img2").setAttribute("src", "./images/dice1.png");
   }
   
 
-
+// for displaying the winner 
 if (random1>random2){
-    document.querySelector("h1").textContent=("🙎‍♂️Player 1 win");
+    document.querySelector("h1").textContent=("🙎‍♂️Player 1 win!");
 }
 else if (random1<random2) {
-    document.querySelector("h1").textContent=("Player 2 win 🙎");
+    document.querySelector("h1").textContent=("Player 2 win! 🙎");
 }
 else {
     document.querySelector("h1").textContent=("🙎‍♂️Draw!🙎");
